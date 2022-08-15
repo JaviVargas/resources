@@ -61,7 +61,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"details\": [\r\n        \r\n        {\r\n            \"description\": \"test product description 3\",\r\n            \"amount\": 125.26\r\n        },\r\n        {\r\n            \"id\": \"ae5db2f0-7e67-4f5d-ae0b-1967c2bc12ec\",\r\n            \"description\": \"new line test product description 2\",\r\n            \"amount\": 21.20\r\n        }\r\n    ]\r\n}",
+					"raw": "{\r\n    \"details\": [\r\n        {\r\n            \"id\": \"ae5db2f0-7e67-4f5d-ae0b-1967c2bc12ec\", // Change this with existent id to update, otherwise remove the id or 404 will received\r\n            \"description\": \"test product description 3\",\r\n            \"amount\": 125.26\r\n        },\r\n        {\r\n            \"description\": \"new line test product description 2\",\r\n            \"amount\": 21.20\r\n        }\r\n    ]\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
